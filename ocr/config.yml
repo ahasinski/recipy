@@ -1,0 +1,22 @@
+recipe_structure:
+  - name
+  - time
+  - servings
+  - tags
+  - ingredients
+  - instructions
+  - pdf
+  - yml
+  - url
+paths:
+  source: /Users/adamhasinski/Desktop/recipes/source_files/
+  pdf: /Users/adamhasinski/Desktop/recipes/pdfs/
+  yml: /Users/adamhasinski/Desktop/recipes/ymls/
+
+blue_apron_config:
+  source_paths:
+    - blue_aprons/pdfs/partials
+  pngs_path: blue_aprons/pngs/
+  overwrite_mode: auto
+  debug: 0
+  print_recipe: 0
